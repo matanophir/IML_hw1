@@ -59,4 +59,3 @@ def visualize_clf(clf, X, Y, title,
     plt.title(title, fontsize=20)
     plt.axis("tight")
     plt.show()
-   

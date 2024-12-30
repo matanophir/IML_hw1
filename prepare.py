@@ -33,7 +33,7 @@ def prepare_data(training_data, new_data):
 if __name__ == "__main__":
     virus_data = pd.read_csv('virus_data.csv')
 
-    train_df, test_df = train_test_split(virus_data, test_size = 0.2, random_state = 9)
+    train_df, test_df = train_test_split(virus_data, test_size = 0.2, random_state = 134)
 
     # Prepare training set according to itself
     train_df_prepared = prepare_data(train_df, train_df)
